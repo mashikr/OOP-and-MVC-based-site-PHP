@@ -2,7 +2,8 @@
 
 class Users extends Controller {
     protected function Index() {
-        echo "Users/Index";
+        $viewmodel = new UserModel();
+        $this->ReturnView($viewmodel->Index(), true);
     }
 }
 
