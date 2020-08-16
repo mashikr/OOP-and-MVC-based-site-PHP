@@ -6,6 +6,10 @@ class ShareModel extends Model {
         $rows = $this->resultset();
         return $rows;
     }
+
+    public function add() {
+        echo "add model";
+    }
 }
 
 ?>
