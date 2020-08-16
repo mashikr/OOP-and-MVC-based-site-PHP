@@ -1,7 +1,8 @@
 <?php
-
+session_start();
 require('config.php');
 
+require ('classes/Messages.php');
 require ('classes/Base.php');
 require ('classes/Controller.php');
 require ('classes/Model.php');
